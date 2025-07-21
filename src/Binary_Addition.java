@@ -1,6 +1,5 @@
 public class Binary_Addition {
     public static void main(String[] args) {
-
         int a = 1110010111;
         int b = 101;
         int reszta = 0;
