@@ -1,6 +1,5 @@
 public class Binary_Addition {
     public static void main(String[] args) {
-
         int a = 1110010111;
         int b = 101;
         int reszta = 0;
@@ -17,14 +16,6 @@ public class Binary_Addition {
             lista2[i] = b % 2;
             b /= 10;
         }
-
-//        for (int i : lista1) {
-//            System.out.print(i);
-//        }
-//        System.out.println();
-//        for (int i : lista2) {
-//            System.out.print(i);
-//        }
 
         for (int i=19; i>0; i--) {
             lista3[i] = (lista1[i] + lista2[i] + reszta) % 2;
